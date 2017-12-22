@@ -1,0 +1,10 @@
+<div class="col s12 m3">
+    <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+            <a href="{% url 'get_my_kid' santa.pk %}"><img class="activator" style="overflow: hidden; width:460px; height: 470px;"src="{{  santa.santa_photo_url  }}"></a>
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">{{ santa.santa_name }}</span>
+        </div>
+    </div>
+</div>
